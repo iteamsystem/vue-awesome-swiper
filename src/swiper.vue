@@ -154,3 +154,16 @@
     }
   }
 </script>
+
+<style scoped>
+.swiper-container-custom {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+}
+</style>
